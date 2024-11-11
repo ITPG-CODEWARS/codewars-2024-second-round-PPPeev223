@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>URL Shrinker</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container my-5">
+        <h1 class="text-center my-4">URL Shrinker</h1>
+        
+        <!-- Form for URL shrinking -->
+        <form action="/shortUrls" method="POST" class="my-4 form-inline">
+            <div class="row g-2 align-items-center">
+                <!-- Input field for URL -->
+                <div class="col-md-9">
+                    <label for="fullUrl" class="form-label visually-hidden">Enter URL:</label>
+                    <input type="url" name="fullUrl" id="fullUrl" class="form-control" placeholder="Enter URL" required>
+                </div>
+                
+                <!-- Shrink Button -->
+                <div class="col-md-3">
+                    <button type="submit" class="btn btn-primary w-100">Shrink</button>
+                </div>
+            </div>
+        </form>
+        
+        <!-- Responsive Table Wrapper -->
+        <div class="table-responsive">
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Full URL</th>
+                        <th>Short URL</th>
+                        <th>Clicks</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><a href="https://Bulgaria.com" target="_blank">https://Bulgaria.com</a></td>
+                        <td><a href="/123456" target="_blank">123456</a></td>
+                        <td>10</td>
+                    </tr>
+                    <!-- Additional rows can be added here -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <!-- Bootstrap JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
