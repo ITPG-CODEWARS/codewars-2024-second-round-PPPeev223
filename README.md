@@ -5,8 +5,8 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/github/repo-size/yourusername/url-shortener?style=for-the-badge&color=blue" alt="Repo Size" height="30">
-  <img src="https://img.shields.io/github/issues-closed/yourusername/url-shortener?style=for-the-badge&color=green" alt="Closed Issues" height="30">
+  <img src="https://img.shields.io/github/repo-size/PPPeev223/url-shortener?style=for-the-badge&color=blue" alt="Repo Size" height="30">
+  <img src="https://img.shields.io/github/issues-closed/PPPeev223/url-shortener?style=for-the-badge&color=green" alt="Closed Issues" height="30">
 </p>
 
 ---
