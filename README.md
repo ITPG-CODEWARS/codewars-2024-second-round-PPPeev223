@@ -1,7 +1,7 @@
 # 🌐 URL Shortener
 
 <p align="center">
-  <img src="./images/logo.png" alt="Project Logo" height="200">
+  <img src="/images/41mg82a773L.png" alt="Project Logo" height="200">
 </p>
 
 <p align="center">
