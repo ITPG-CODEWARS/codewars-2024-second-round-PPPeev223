@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "devStart": "nodemon server.js",
-    "migrate": ".a.da.sdas.as.a."
+    "devStart": "nodemon server.js"
   },
   "author": "",
   "license": "ISC",
@@ -15,7 +14,8 @@
     "express": "^4.21.1",
     "mongodb": "^2.2.12",
     "mongoose": "^8.8.1",
-    "shortid": "^2.2.16"
+    "shortid": "^2.2.16",
+    "valid-url": "^1.0.9"
   },
   "devDependencies": {
     "nodemon": "^3.1.7"
